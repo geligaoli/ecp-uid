@@ -4,6 +4,16 @@
 # Log file
 *.log
 
+# Idea IDE file
+.idea/libraries
+.idea/inspectionProfiles
+.idea/workspace.xml
+.idea/dictionaries
+
+*.iws
+*.iml
+*.ipr
+
 # BlueJ files
 *.ctxt
 
@@ -19,5 +29,17 @@
 *.tar.gz
 *.rar
 
+*/target/
+/target/
+*/.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+*.org
+*.gz
+
+
